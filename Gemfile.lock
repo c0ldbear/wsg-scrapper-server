@@ -32,6 +32,7 @@ DEPENDENCIES
   httparty
   nokogiri
   puma
+  rack
   sinatra
 
 BUNDLED WITH

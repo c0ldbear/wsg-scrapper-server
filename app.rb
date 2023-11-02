@@ -10,5 +10,5 @@ get '/wsg-info' do
 end
 
 get '/' do 
-    '<center><h1>Hello there!</h1></center>'
+    '<center><h1>Hey hey!</h1></center>'
 end
