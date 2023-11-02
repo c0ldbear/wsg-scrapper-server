@@ -51,7 +51,8 @@ def get_wsg_info
         puts "Failed: #{response.code}"
     end
 
-    JSON.generate(wsg_info)
+    # JSON.generate(wsg_info)
+    wsg_info.to_json
 end
 
 class Constant

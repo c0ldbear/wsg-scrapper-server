@@ -1,7 +1,7 @@
 require 'sinatra'
 require './wsg-info'
 
-set :port, 80
+# set :port, 80
 
 get '/wsg-info' do
     content_type :json
@@ -10,5 +10,5 @@ get '/wsg-info' do
 end
 
 get '/' do 
-    'Hello there!'
+    '<center><h1>Hello there!</h1></center>'
 end
