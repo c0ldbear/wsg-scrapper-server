@@ -55,9 +55,11 @@ def get_wsg_info_scrape
 end
 
 class Constant
-    ID = "Id"
-    TITLE = "Title" 
-    IMPACT = "Impact" 
-    EFFORT = "Effort" 
+    ID = "id"
+    DESCRIPTION = "description"
+    TITLE = "title" 
+    IMPACT = "impact" 
+    EFFORT = "effort" 
+    TAGS = "tags"
     FILENAME = "wsg-titles-impacts-efforts"
 end
