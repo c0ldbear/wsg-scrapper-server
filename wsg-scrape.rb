@@ -53,13 +53,3 @@ def get_wsg_info_scrape
     # JSON.generate(wsg_info)
     wsg_info.to_json
 end
-
-class Constant
-    ID = "id"
-    DESCRIPTION = "description"
-    TITLE = "title" 
-    IMPACT = "impact" 
-    EFFORT = "effort" 
-    TAGS = "tags"
-    FILENAME = "wsg-titles-impacts-efforts"
-end
