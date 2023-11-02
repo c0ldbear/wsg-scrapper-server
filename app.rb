@@ -1,11 +1,11 @@
 require 'sinatra'
-require './wsg-info'
+require './wsg-scrape'
 
 # set :port, 80
 
 get '/wsg-info' do
     content_type :json
-    json_data = get_wsg_info()
+    json_data = get_wsg_info_scrape()
     json_data
 end
 

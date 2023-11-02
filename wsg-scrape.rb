@@ -2,10 +2,9 @@ require 'httparty'
 require 'nokogiri'
 require 'json'
 
-def get_wsg_info
+def get_wsg_info_scrape
     url = "https://w3c.github.io/sustyweb"
     response = HTTParty.get(url)
-    save_to_json = true
     wsg_info = []
 
     if response.code == 200
