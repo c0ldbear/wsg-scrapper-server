@@ -8,3 +8,7 @@ get '/wsg-info' do
     json_data = get_wsg_info()
     json_data
 end
+
+get '/' do 
+    'Hello there!'
+end
